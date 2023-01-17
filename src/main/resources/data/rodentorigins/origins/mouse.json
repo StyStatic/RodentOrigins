@@ -1,0 +1,17 @@
+{
+  "name": "Mouse",
+  "description": "You are an itty-bitty little Mouse!",
+  "powers": [
+    "rodentorigins:mouse_size",
+    "origins:fall_immunity",
+    "origins:climbing",
+    "rodentorigins:night_blindness",
+    "rodentorigins:nocturnal",
+    "rodentorigins:chocolate_fiend",
+    "rodentorigins:sugar_rush",
+    "origins:vegetarian"
+  ],
+  "icon": "minecraft:cookie",
+  "order": 1,
+  "impact": 3
+}

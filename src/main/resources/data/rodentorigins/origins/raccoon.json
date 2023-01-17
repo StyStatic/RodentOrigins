@@ -1,0 +1,21 @@
+{
+  "name": "Raccoon",
+  "description": "You are a Raccoon!",
+  "powers": [
+    "rodentorigins:raccoon_size",
+    "rodentorigins:seedy",
+    "rodentorigins:sticks",
+    "rodentorigins:eggy",
+    "rodentorigins:light_aversion",
+    "rodentorigins:night_vision",
+    "rodentorigins:strong_stomach",
+    "rodentorigins:rotten_flesh_health",
+    "rodentorigins:nocturnal",
+    "rodentorigins:bite"
+
+
+  ],
+  "icon": "minecraft:egg",
+  "order": 1,
+  "impact": 3
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Chinchilla",
+  "description": "You are a Chinchilla!",
+  "powers": [
+    "rodentorigins:chinchilla_size",
+    "rodentorigins:nocturnal",
+    "rodentorigins:fall_damage_reduction",
+    "rodentorigins:water_aversion",
+    "rodentorigins:desert_native",
+    "origins:vegetarian",
+    "rodentorigins:superseedy",
+    "rodentorigins:power_of_friendship"
+
+  ],
+  "icon": "minecraft:sand",
+  "order": 1,
+  "impact": 3
+}

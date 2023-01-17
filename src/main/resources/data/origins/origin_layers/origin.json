@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "origins": [
+    "rodentorigins:mouse",
+    "rodentorigins:hamster",
+    "rodentorigins:chipmunk",
+    "rodentorigins:rat",
+    "rodentorigins:squirrel",
+    "rodentorigins:flying_squirrel",
+    "rodentorigins:chinchilla",
+    "rodentorigins:raccoon",
+    "rodentorigins:beaver",
+    "rodentorigins:capybara",
+    "rodentorigins:porcupine",
+    "rodentorigins:ferret"
+  ]
+}

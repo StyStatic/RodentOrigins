@@ -1,0 +1,17 @@
+{
+  "type": "origins:target_action_on_hit",
+  "name": "Bite",
+  "description": "Your bite is very poisonous! #Rabies",
+  "cooldown": 1,
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:poison",
+      "duration": 60,
+      "amplifier": 0,
+      "is_ambient": true,
+      "show_particles": false,
+      "show_icon": true
+    }
+  }
+}

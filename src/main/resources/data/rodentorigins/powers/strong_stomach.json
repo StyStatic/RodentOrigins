@@ -1,0 +1,8 @@
+{
+  "type": "origins:effect_immunity",
+  "name": "Strong Stomach",
+  "description": "You are immune to hunger.",
+  "effects": [
+    "minecraft:hunger"
+  ]
+}

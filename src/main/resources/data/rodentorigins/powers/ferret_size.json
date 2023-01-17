@@ -1,0 +1,72 @@
+{
+  "type": "origins:multiple",
+  "name": "Ferret",
+  "description": "You are the size of a Ferret! You have 6 hearts!",
+  "modify_size": {
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:height 0.5 @s"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:width 0.5 @s"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:visibility 0.5 @s"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "scale persist set true @s"
+        }
+      ]
+    }
+  },
+  "attribute_modifiers": {
+    "type": "origins:attribute",
+    "modifiers": [
+      {
+        "name": "Origin modifier",
+        "attribute": "minecraft:generic.max_health",
+        "operation": "addition",
+        "value": -8
+      },
+      {
+        "name": "Origin modifier",
+        "attribute": "minecraft:generic.attack_speed",
+        "operation": "addition",
+        "value": 0.2
+      },
+      {
+        "name": "Origin modifier",
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "addition",
+        "value": 0.030
+      },
+      {
+        "name": "Origin modifier",
+        "attribute": "reach-entity-attributes:attack_range",
+        "operation": "addition",
+        "value": 0.5
+      },
+      {
+        "name": "Origin modifier",
+        "attribute": "reach-entity-attributes:reach",
+        "operation": "addition",
+        "value": 1
+      }
+    ]
+  },
+  "jump_modifier": {
+    "type": "origins:modify_jump",
+    "modifier": {
+      "name": "Origin modifier",
+      "operation": "multiply_total",
+      "value": 0.2
+    }
+  }
+}

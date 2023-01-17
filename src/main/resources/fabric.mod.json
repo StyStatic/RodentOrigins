@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "rodentorigins",
+  "version": "${version}",
+  "name": "Rodent Origins",
+  "description": "Rodent Themed Origins",
+  "authors": [
+    "StyStatic",
+    "Maezes_",
+    "Phantom_",
+    "TricksyRaposa",
+    "ThisDisco",
+    "RowanOake16"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/rodentorigins/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.data_stream.rodentorigins.client.ClientMain"
+    ],
+    "main": [
+      "com.data_stream.rodentorigins.Main"
+    ]
+  },
+  "mixins": [
+    "rodentorigins.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}

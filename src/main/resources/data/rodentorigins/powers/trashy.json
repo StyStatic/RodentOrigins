@@ -1,0 +1,32 @@
+{
+  "type": "origins:prevent_item_use",
+  "name": "Trashy",
+  "description": "You are limited to eating raw meats.",
+  "item_condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "tag": "rodentorigins:trash"
+            }
+          }
+        ],
+        "inverted": true
+      },
+      {
+        "type": "origins:food"
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "origins:ignore_diet"
+        },
+        "inverted": true
+      }
+    ]
+  }
+}

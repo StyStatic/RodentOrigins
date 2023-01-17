@@ -1,0 +1,16 @@
+{
+  "name": "Capybara",
+  "description": "You are a Capybara!",
+  "powers": [
+    "rodentorigins:capybara_size",
+    "rodentorigins:land_nerf",
+    "rodentorigins:water_speed",
+    "origins:vegetarian",
+    "origins:more_exhaustion",
+    "rodentorigins:water_sleep"
+
+  ],
+  "icon": "rodentorigins:heart",
+  "order": 1,
+  "impact": 3
+}

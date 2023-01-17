@@ -1,0 +1,29 @@
+{
+  "type": "origins:action_over_time",
+  "name": "Light Aversion",
+  "description": "Lights makes you feel sick.",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:poison",
+      "duration": 80,
+      "amplifier": 0,
+      "is_ambient": true,
+      "show_particles": false,
+      "show_icon": false
+    }
+  },
+
+  "interval": 20,
+  "condition": {
+    "type": "origins:block_in_radius",
+    "block_condition": {
+      "type": "origins:in_tag",
+      "tag": "rodentorigins:raccoonblocks"
+    },
+    "radius": 2,
+    "shape": "cube",
+    "comparison": ">=",
+    "compare_to": 1
+  }
+}

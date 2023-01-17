@@ -1,0 +1,32 @@
+{
+  "type": "origins:action_over_time",
+  "name": "Water Aversion",
+  "description": "Water makes you feel a little sick.",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:nausea",
+      "duration": 100,
+      "amplifier": 0,
+      "is_ambient": true,
+      "show_particles": false,
+      "show_icon": false
+    }
+  },
+
+  "interval": 20,
+  "condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:in_rain"
+      },
+      {
+        "type": "origins:fluid_height",
+        "fluid": "minecraft:water",
+        "comparison": ">",
+        "compare_to": 0.0
+      }
+    ]
+  }
+}

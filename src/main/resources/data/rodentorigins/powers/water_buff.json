@@ -1,0 +1,55 @@
+{
+  "type": "origins:action_over_time",
+  "name": "Aquatic Animal",
+  "description": "Water feels natural to you.",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effects": [
+      {
+        "effect": "minecraft:dolphins_grace",
+        "duration": 100,
+        "amplifier": 0,
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": false
+      },
+      {
+        "effect": "minecraft:strength",
+        "duration": 100,
+        "amplifier": 0,
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": false
+      },
+      {
+        "effect": "minecraft:water_breathing",
+        "duration": 100,
+        "amplifier": 0,
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": false
+      },
+      {
+        "effect": "minecraft:night_vision",
+        "duration": 100,
+        "amplifier": 0,
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": false
+      }
+    ]
+  },
+
+  "interval": 20,
+  "condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:fluid_height",
+        "fluid": "minecraft:water",
+        "comparison": ">=",
+        "compare_to": 1.0
+      }
+    ]
+  }
+}

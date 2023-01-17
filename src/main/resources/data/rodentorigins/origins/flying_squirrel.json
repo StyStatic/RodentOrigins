@@ -1,0 +1,19 @@
+{
+  "name": "Flying Squirrel",
+  "description": "You are a Flying Squirrel!",
+  "powers": [
+    "rodentorigins:flying_squirrel_size",
+    "origins:climbing",
+    "origins:fresh_air",
+    "rodentorigins:seedy",
+    "rodentorigins:berryeater",
+    "origins:fall_immunity",
+    "rodentorigins:nocturnal",
+    "origins:elytra",
+    "origins:light_armor",
+    "rodentorigins:sky_hearts"
+  ],
+  "icon": "rodentorigins:acorn",
+  "order": 1,
+  "impact": 3
+}

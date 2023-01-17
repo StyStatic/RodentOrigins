@@ -1,0 +1,15 @@
+{
+  "name": "Crash Landing",
+  "description": "You get extra hearts when gliding!",
+  "type": "origins:conditioned_attribute",
+  "modifier": {
+    "name": "Origin modifier",
+    "attribute": "minecraft:generic.max_health",
+    "operation": "addition",
+    "value": 6
+  },
+  "tick_rate": 20,
+  "condition": {
+    "type": "origins:fall_flying"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Beaver",
+  "description": "You are a Beaver!",
+  "powers": [
+    "rodentorigins:beaver_size",
+    "rodentorigins:tree_feller",
+    "rodentorigins:sticks",
+    "rodentorigins:pescatarian",
+    "rodentorigins:land_nerf",
+    "rodentorigins:water_buff"
+
+  ],
+  "icon": "minecraft:oak_log",
+  "order": 1,
+  "impact": 3
+}

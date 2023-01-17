@@ -1,0 +1,23 @@
+{
+  "type": "origins:modify_damage_taken",
+  "name": "Strong Feet",
+  "description": "The height at which you take fall damage is reduced.",
+  "damage_condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:amount",
+        "comparison": "<=",
+        "compare_to": 6
+      },
+      {
+        "type": "origins:from_falling"
+      }
+    ]
+  },
+  "modifier": {
+    "name": "Fall Damage Removal",
+    "operation": "set_base",
+    "value": 0.0
+  }
+}

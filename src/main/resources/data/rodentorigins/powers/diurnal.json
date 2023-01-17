@@ -1,0 +1,28 @@
+{
+  "type": "origins:action_over_time",
+  "name": "Diurnal",
+  "description": "You feel tired during the night.",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:slowness",
+      "duration": 400,
+      "amplifier": 1,
+      "is_ambient": true,
+      "show_particles": false,
+      "show_icon": false
+    }
+  },
+
+  "interval": 20,
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:time_of_day",
+        "comparison": ">=",
+        "compare_to": 12000
+      }
+    ]
+  }
+}

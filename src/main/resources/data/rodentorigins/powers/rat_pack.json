@@ -1,0 +1,9 @@
+{
+  "type": "origins:action_over_time",
+  "name": "The Power of Friendship",
+  "description": "You are stronger near friends!",
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "execute at @s if entity @a[distance=1..5] run effect give @s minecraft:regeneration 5 1"
+  }
+}

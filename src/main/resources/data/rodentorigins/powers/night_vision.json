@@ -1,0 +1,17 @@
+{
+  "type": "origins:action_over_time",
+  "name": "Night Vision",
+  "description": "Your can see in the dark!",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:night_vision",
+      "duration": 400,
+      "amplifier": 0,
+      "is_ambient": true,
+      "show_particles": false,
+      "show_icon": false
+    }
+  },
+  "interval": 20
+}

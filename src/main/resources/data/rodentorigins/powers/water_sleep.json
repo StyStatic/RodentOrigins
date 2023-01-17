@@ -1,0 +1,15 @@
+{
+  "type": "origins:prevent_sleep",
+  "name": "Wet Sleeper",
+  "description": "You have an innate need to sleep in water.",
+  "message": "This spot isn't wet enough to sleep.",
+  "block_condition": {
+    "type": "origins:adjacent",
+    "adjacent_condition": {
+      "type": "origins:block",
+      "block": "minecraft:water"
+    },
+    "comparison": "<=",
+    "compare_to": 3
+  }
+}

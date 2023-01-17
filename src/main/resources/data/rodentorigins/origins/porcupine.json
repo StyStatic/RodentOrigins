@@ -1,0 +1,15 @@
+{
+  "name": "Porcupine",
+  "description": "You are a Porcupine!",
+  "powers": [
+    "rodentorigins:porcupine_size",
+    "origins:vegetarian",
+    "origins:climbing",
+    "rodentorigins:poison_immunity",
+    "origins:natural_armor",
+    "rodentorigins:thorns"
+  ],
+  "icon": "minecraft:cactus",
+  "order": 1,
+  "impact": 3
+}

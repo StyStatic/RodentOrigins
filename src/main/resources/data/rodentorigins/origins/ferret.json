@@ -1,0 +1,19 @@
+{
+  "name": "Ferret",
+  "description": "You are a silly little guy!",
+  "powers": [
+    "rodentorigins:ferret_size",
+    "rodentorigins:tunneler",
+    "origins:carnivore",
+    "rodentorigins:eggy",
+    "origins:climbing",
+    "rodentorigins:ageing",
+    "rodentorigins:energetic",
+    "rodentorigins:power_of_friendship"
+
+
+  ],
+  "icon": "minecraft:cocoa_beans",
+  "order": 1,
+  "impact": 3
+}

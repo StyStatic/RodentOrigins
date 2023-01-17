@@ -1,0 +1,20 @@
+{
+  "name": "Rat",
+  "description": "You are a Rat!",
+  "powers": [
+    "rodentorigins:rat_size",
+    "rodentorigins:strong_stomach",
+    "rodentorigins:trashy",
+    "rodentorigins:food_buff",
+    "rodentorigins:extra_exp",
+    "rodentorigins:luck",
+    "rodentorigins:strong",
+    "origins:climbing",
+    "rodentorigins:rat_pack",
+    "rodentorigins:garbage_disposal"
+
+  ],
+  "icon": "minecraft:cocoa_beans",
+  "order": 1,
+  "impact": 3
+}

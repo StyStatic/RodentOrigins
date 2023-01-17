@@ -1,0 +1,16 @@
+{
+  "type": "origins:active_self",
+  "name": "Team Trees",
+  "description": "You have a knack for finding Bone Meal to replant the trees!",
+  "key": {
+    "key": "key.origins.secondary_active"
+  },
+  "entity_action": {
+    "type": "origins:give",
+    "stack": {
+      "item": "minecraft:bone_meal",
+      "amount": 1
+    }
+  },
+  "cooldown": 20
+}

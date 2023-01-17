@@ -1,0 +1,9 @@
+{
+  "type": "origins:modify_xp_gain",
+  "name": "Old and Wise",
+  "description": "You gain triple the normal amount of exp!",
+  "modifier": {
+    "operation": "multiply_base",
+    "value": 2.0
+  }
+}

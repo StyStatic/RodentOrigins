@@ -1,0 +1,22 @@
+{
+  "name": "Healthy Flesh",
+  "description": "Rotten Flesh gives absorption hearts.",
+  "type": "origins:action_on_item_use",
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "item": "minecraft:rotten_flesh"
+    }
+  },
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:absorption",
+      "duration": 200,
+      "amplifier": 0,
+      "is_ambient": true,
+      "show_particles": false,
+      "show_icon": false
+    }
+  }
+}

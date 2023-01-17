@@ -1,0 +1,33 @@
+{
+  "type": "origins:action_over_time",
+  "name": "Bad Sight",
+  "description": "Your eyes don't function as well at night.",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:blindness",
+      "duration": 400,
+      "amplifier": 0,
+      "is_ambient": true,
+      "show_particles": false,
+      "show_icon": false
+    }
+  },
+
+  "interval": 20,
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:time_of_day",
+        "comparison": ">=",
+        "compare_to": 13000
+      },
+      {
+        "type": "origins:time_of_day",
+        "comparison": "<=",
+        "compare_to": 18000
+      }
+    ]
+  }
+}

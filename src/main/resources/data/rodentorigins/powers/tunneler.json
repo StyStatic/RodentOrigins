@@ -1,0 +1,17 @@
+{
+  "type": "origins:action_over_time",
+  "name": "Diggy Diggy Hole",
+  "description": "You have an aptitude for digging!",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:haste",
+      "duration": 400,
+      "amplifier": 0,
+      "is_ambient": true,
+      "show_particles": false,
+      "show_icon": false
+    }
+  },
+  "interval": 20
+}

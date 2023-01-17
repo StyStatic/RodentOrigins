@@ -1,0 +1,14 @@
+{
+  "name": "Newborn",
+  "description": "You have blindness until you grow older.",
+  "type": "origins:action_on_callback",
+  "entity_action_chosen": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "/effect give @s minecraft:blindness 3600 0 true"
+      }
+    ]
+  }
+}

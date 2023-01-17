@@ -1,0 +1,11 @@
+{
+  "type": "origins:inventory",
+  "name": "Cheek Pouches",
+  "title": "Cheeks",
+  "description": "Your cheeks can store a few items inside.",
+  "container_type": "hopper",
+  "drop_on_death": false,
+  "key": {
+    "key": "key.origins.secondary_active"
+  }
+}

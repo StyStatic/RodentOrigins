@@ -1,0 +1,31 @@
+{
+  "type": "origins:action_over_time",
+  "name": "Fish out of water",
+  "description": "Land feels unnatural to you.",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effects": [
+      {
+        "effect": "minecraft:slowness",
+        "duration": 100,
+        "amplifier": 1,
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": false
+      }
+    ]
+  },
+
+  "interval": 20,
+  "condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:fluid_height",
+        "fluid": "minecraft:water",
+        "comparison": "<=",
+        "compare_to": 0.9
+      }
+    ]
+  }
+}

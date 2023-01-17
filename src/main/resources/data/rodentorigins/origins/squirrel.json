@@ -1,0 +1,17 @@
+{
+  "name": "Squirrel",
+  "description": "You are a Squirrel!",
+  "powers": [
+    "rodentorigins:squirrel_size",
+    "origins:climbing",
+    "origins:fresh_air",
+    "rodentorigins:bite",
+    "rodentorigins:seedy",
+    "rodentorigins:berryeater",
+    "origins:fall_immunity",
+    "rodentorigins:bonemeal"
+  ],
+  "icon": "rodentorigins:acorn",
+  "order": 1,
+  "impact": 3
+}

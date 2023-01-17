@@ -1,0 +1,32 @@
+{
+  "type": "origins:prevent_item_use",
+  "name": "Berry Eater",
+  "description": "You are limited to eating berries and seeds.",
+  "item_condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "tag": "rodentorigins:berries"
+            }
+          }
+        ],
+        "inverted": true
+      },
+      {
+        "type": "origins:food"
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "origins:ignore_diet"
+        },
+        "inverted": true
+      }
+    ]
+  }
+}

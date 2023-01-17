@@ -1,0 +1,41 @@
+{
+  "name": "HYPER!!",
+  "description": "A seemingly random burst of energy!",
+  "type": "origins:active_self",
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+    "bar_index": 16
+  },
+  "cooldown": 1200,
+  "key": {
+    "key": "key.origins.primary_active"
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:jump_boost",
+          "duration": 200,
+          "amplifier": 14,
+          "is_ambient": true,
+          "show_particles": false,
+          "show_icon": false
+        }
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:speed",
+          "duration": 200,
+          "amplifier": 24,
+          "is_ambient": true,
+          "show_particles": false,
+          "show_icon": false
+        }
+      }
+    ]
+  }
+}
