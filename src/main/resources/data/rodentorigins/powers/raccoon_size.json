@@ -1,7 +1,7 @@
 {
   "type": "origins:multiple",
   "name": "Raccoon",
-  "description": "You are the size of a Raccoon!",
+  "description": "You are the size of a Raccoon! You have 8 hearts!",
   "modify_size": {
     "type": "origins:action_on_callback",
     "entity_action_chosen": {
