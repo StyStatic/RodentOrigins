@@ -17,6 +17,9 @@ public class RodentItems{
     public static final Item HEART = registerItem("heart",
             new Item(new Item.Settings()));
 
+    public static final Item DISCO = registerItem("disco",
+            new Item(new Item.Settings()));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Main.MODID, name), item);
