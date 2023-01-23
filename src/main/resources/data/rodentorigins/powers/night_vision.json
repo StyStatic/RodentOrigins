@@ -1,7 +1,7 @@
 {
   "type": "origins:action_over_time",
   "name": "Night Vision",
-  "description": "Your can see in the dark!",
+  "description": "You can see in the dark!",
   "entity_action": {
     "type": "origins:apply_effect",
     "effect": {
