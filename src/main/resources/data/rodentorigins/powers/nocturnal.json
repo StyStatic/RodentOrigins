@@ -1,7 +1,7 @@
 {
   "type": "origins:action_over_time",
   "name": "Nocturnal",
-  "description": "You feel tired at night.",
+  "description": "You feel tired at day.",
   "entity_action": {
     "type": "origins:apply_effect",
     "effect": {
